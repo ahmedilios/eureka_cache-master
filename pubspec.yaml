@@ -1,0 +1,24 @@
+name: eureka_cache
+description: Eureka BLOC sqlite backed cache with BLoCs.
+version: 0.0.1
+author: Tiago Nascimento <tiago@eurekalabs.com.br>
+homepage: https://gitlab.eurekalabs.com.br/flutter/eureka_cache
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mutex:
+  sqflite:
+  meta:
+  bloc:
+  equatable:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0
+
+flutter:
